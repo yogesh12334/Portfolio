@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5bc5c94823.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div id="header">
+     <div class="container">
+        <nav>
+            <a id="logo"><span class="y">Y</span>ogesh.</a>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class=" fas fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        
+        <div class="header-text">
+            <p class="para">Web Devloper</p>
+            <h1 class="h1">Hi, I'm <span class="span">Yogesh</span><br>Kumar from Tanda</h1>
+        </div>
+     </div>
+     <div class="image-container">
+        <img src="img/sky.png" alt="img">
+     </div>
+     </div>
+
+     <div id="about">
+           <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate web developer with a strong focus on creating clean, efficient, and user-friendly websites. I am student but, I've had the opportunity to work on a variety of projects, from small business websites to complex web applications. My technical expertise includes HTML, CSS, JavaScript, and frameworks like React and Angular. I take pride in delivering high-quality code that not only meets the client's needs but also enhances the user experience.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experince')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Devlopment</span><br>App Interfaces</li>
+                            <li><span>App Devlopment</span><br>Buliding Android/ios apps</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experince">
+                        <ul>
+                            <li><span>2024 - Current</span><br>I'm making some of my projects right now</li>     
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>BCA From Teerthanker Mahaveer University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           </div>
+     </div>
+
+     <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>We customize each project according to your specific requirements so that your website accurately reflects your business goals.</p>
+                <a href="#">leran more</a>
+              </div>
+              <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>We develop user-centric mobile solutions that make your APP visually appealing and Highly functional, so that your users' experience is memorable.</p>
+                <a href="#">leran more</a>
+              </div>
+              <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX</h2>
+                <p>Our UI/Ax design solutions elevate the look and feel of your digital platform, which is not only aesthetically pleasing but also top-notch in functionality</p>
+                <a href="#">leran more</a>
+              </div>
+        </div>
+     </div>
+    
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you yo the talented people arround the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Ride the rhythm with BeatWave, where you can easily create, mix, intuitive interface.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Experience free shopping with ShopEase, your one-stop destination for all your favorite brands.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+
+     <div id="contact">
+        <div class="conatiner">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Conatct</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>yogeshkumar84192@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>8865064674</p>
+                    <div class="social-icons">
+                        <a href="https://twitter/YogeshK30105"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/_yogesh_.12/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/Yogesh kumar"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="img/my-cv.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Yogesh. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+     </div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
